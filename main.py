@@ -24,11 +24,12 @@ form = """
                 width: 540px;
                 height: 120px;
             }}
+
         </style>
     </head>
     <body>
         <form action="/" method="post">
-            <input type="text" id="rot" name="rot"/>
+            <input value="0" type="text" id="rot" name="rot"/>
             <textarea id="text" name="text">{0}</textarea>
             <input type="submit" value="Encrypt"/>
         </form>
